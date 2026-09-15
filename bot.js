@@ -3,7 +3,7 @@ const nodemailer = require('nodemailer');
 const axios = require('axios');
 
 // 1. Cấu hình Telegram Bot Token
-const botToken = 'YOUR_TELEGRAM_BOT_TOKEN'; // Thay bằng Token từ BotFather
+const botToken = '8693581582:AAExut166KoyBjvjfTUOFa5x0K78fgYhwys'; // Thay bằng Token từ BotFather
 const bot = new TelegramBot(botToken, { polling: true });
 
 // 2. Cấu hình Gmail SMTP (Dùng cho gửi/gửi lại mã xác minh)
